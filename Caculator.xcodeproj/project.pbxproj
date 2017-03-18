@@ -12,6 +12,7 @@
 		1888C6021E7C0DF300E12F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1888C6001E7C0DF300E12F08 /* Main.storyboard */; };
 		1888C6041E7C0DF300E12F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1888C6031E7C0DF300E12F08 /* Assets.xcassets */; };
 		1888C6071E7C0DF300E12F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1888C6051E7C0DF300E12F08 /* LaunchScreen.storyboard */; };
+		1888C60F1E7C1C6500E12F08 /* CaculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888C60E1E7C1C6500E12F08 /* CaculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1888C6031E7C0DF300E12F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1888C6061E7C0DF300E12F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1888C6081E7C0DF300E12F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1888C60E1E7C1C6500E12F08 /* CaculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaculatorBrain.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1888C5FB1E7C0DF300E12F08 /* Caculator */ = {
 			isa = PBXGroup;
 			children = (
+				1888C60E1E7C1C6500E12F08 /* CaculatorBrain.swift */,
 				1888C5FC1E7C0DF300E12F08 /* AppDelegate.swift */,
 				1888C5FE1E7C0DF300E12F08 /* ViewController.swift */,
 				1888C6001E7C0DF300E12F08 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1888C60F1E7C1C6500E12F08 /* CaculatorBrain.swift in Sources */,
 				1888C5FF1E7C0DF300E12F08 /* ViewController.swift in Sources */,
 				1888C5FD1E7C0DF300E12F08 /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +303,7 @@
 				1888C60D1E7C0DF300E12F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
